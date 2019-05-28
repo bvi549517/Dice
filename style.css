@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Chango');
+body{
+	background-image: url('table.png');
+	background-size: 100%;
+	background-position: 1px -120px;
+}
+#score{
+	color: white;
+	font-size: 40px;
+	font-family: 'Chango', cursive;
+}
+.players{
+	display: inline-block;
+	margin-left: 5p0x;
+}
+#die1{
+	width: 64px;
+	height: 64px;
+	background-image: url('dice.png');
+	margin: 0 auto;
+	
+}
+#die2{
+	width: 64px;
+	height: 64px;
+	background-image: url('dice.png');
+	margin: 0 auto;
+	margin-left: 40px;
+	
+}
+#playArea{
+	position: absolute;
+	top: 40%;
+	left: 37%;
+	text-align: center;
+	width: 30%;
+}
+button{
+	margin-top: 100px;
+	margin-left: 29%;
+	clear: both;
+	border-color: black;
+	font-size: 25px;
+	font-family: 'Lobster', cursive;
+	background: #ffff00;
+	display: block;
+}
+.float-left{
+	float: left;;
+	font-family: 'Chango', cursive;
+}
+.float-left img{
+	width: 80px;
+	height: 80px;
+}
